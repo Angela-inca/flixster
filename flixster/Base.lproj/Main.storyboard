@@ -104,11 +104,42 @@
                         <outlet property="posterView" destination="G8C-uO-rcV" id="cab-HF-r34"/>
                         <outlet property="synopsisLabel" destination="45Y-dV-eBf" id="BrZ-Mx-07z"/>
                         <outlet property="titleLabel" destination="0ia-Bg-xH6" id="IGh-RS-kq8"/>
+                        <segue destination="1FX-RM-2Hh" kind="show" identifier="trailer" id="4Zp-ti-l5k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZH-8y-XgR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-31.199999999999999" y="1117.6911544227887"/>
+        </scene>
+        <!--Trailer-->
+        <scene sceneID="uPg-P9-LHV">
+            <objects>
+                <viewController id="1FX-RM-2Hh" customClass="TrailerViewController" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5PR-JE-i5O" customClass="Trai">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xpb-ub-D8A">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZXy-SN-JPh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trailer" id="A6g-Q9-wTV"/>
+                    <connections>
+                        <outlet property="trailerWebView" destination="xpb-ub-D8A" id="IHM-Vs-ILx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zie-Nk-STB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="1093.4032983508246"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uYQ-Q9-c03">
@@ -221,11 +252,42 @@
                         <outlet property="introductionLabel" destination="o2g-yd-xIJ" id="gND-fz-Sqr"/>
                         <outlet property="posterView" destination="Xnp-dX-g17" id="1hJ-bD-MM7"/>
                         <outlet property="titleLabel" destination="Lk5-fd-FEJ" id="aov-0J-2Dt"/>
+                        <segue destination="zC2-qF-ToJ" kind="show" identifier="trailer2" id="LGU-TP-la0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jrs-Ms-sLH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4432.8000000000002" y="-313.49325337331339"/>
+        </scene>
+        <!--Trailer-->
+        <scene sceneID="k15-4S-xhS">
+            <objects>
+                <viewController id="zC2-qF-ToJ" customClass="TrailerView2Controller" customModule="flixster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MMD-11-Bgi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-U0-Kbt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AXN-ZH-xbc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trailer" id="Vpg-0U-JFI"/>
+                    <connections>
+                        <outlet property="trailerWebView" destination="FlB-U0-Kbt" id="xR7-Af-8rJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NvY-6n-Yeo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5480.8000000000002" y="-379.16041979010498"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="R6Z-xQ-Hc6">

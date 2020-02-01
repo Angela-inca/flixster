@@ -18,6 +18,8 @@
 		0B34E46F23DA8321003E36F5 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B34E46E23DA8321003E36F5 /* MoviesViewController.swift */; };
 		0B34E47123DA8F56003E36F5 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B34E47023DA8F56003E36F5 /* MovieCell.swift */; };
 		0B545C3623E5D93B001CFB6B /* MovieDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B545C3523E5D93B001CFB6B /* MovieDetail2ViewController.swift */; };
+		0B545C3823E5EBDD001CFB6B /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B545C3723E5EBDD001CFB6B /* TrailerViewController.swift */; };
+		0B545C3A23E61D27001CFB6B /* TrailerView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B545C3923E61D27001CFB6B /* TrailerView2Controller.swift */; };
 		0BE38CC423E3B8C100828310 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE38CC323E3B8C100828310 /* MovieDetailsViewController.swift */; };
 		0BE38CC623E3C98800828310 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE38CC523E3C98800828310 /* MovieGridViewController.swift */; };
 		0BE38CC823E4138F00828310 /* MoviegridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE38CC723E4138F00828310 /* MoviegridCell.swift */; };
@@ -59,6 +61,8 @@
 		0B34E46E23DA8321003E36F5 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		0B34E47023DA8F56003E36F5 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		0B545C3523E5D93B001CFB6B /* MovieDetail2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail2ViewController.swift; sourceTree = "<group>"; };
+		0B545C3723E5EBDD001CFB6B /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		0B545C3923E61D27001CFB6B /* TrailerView2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerView2Controller.swift; sourceTree = "<group>"; };
 		0BE38CC323E3B8C100828310 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		0BE38CC523E3C98800828310 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		0BE38CC723E4138F00828310 /* MoviegridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviegridCell.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				0B34E43E23DA8012003E36F5 /* AppDelegate.swift */,
 				0B34E44023DA8012003E36F5 /* SceneDelegate.swift */,
 				0B34E44423DA8012003E36F5 /* Main.storyboard */,
+				0B545C3723E5EBDD001CFB6B /* TrailerViewController.swift */,
+				0B545C3923E61D27001CFB6B /* TrailerView2Controller.swift */,
 				0BE38CC723E4138F00828310 /* MoviegridCell.swift */,
 				0B545C3523E5D93B001CFB6B /* MovieDetail2ViewController.swift */,
 				0BE38CC523E3C98800828310 /* MovieGridViewController.swift */,
@@ -425,11 +431,13 @@
 				0BE38CC423E3B8C100828310 /* MovieDetailsViewController.swift in Sources */,
 				0B34E43F23DA8012003E36F5 /* AppDelegate.swift in Sources */,
 				0BE38CC823E4138F00828310 /* MoviegridCell.swift in Sources */,
+				0B545C3A23E61D27001CFB6B /* TrailerView2Controller.swift in Sources */,
 				0B34E44123DA8012003E36F5 /* SceneDelegate.swift in Sources */,
 				0B34E47123DA8F56003E36F5 /* MovieCell.swift in Sources */,
 				0B34E46F23DA8321003E36F5 /* MoviesViewController.swift in Sources */,
 				0B545C3623E5D93B001CFB6B /* MovieDetail2ViewController.swift in Sources */,
 				0BE38CC623E3C98800828310 /* MovieGridViewController.swift in Sources */,
+				0B545C3823E5EBDD001CFB6B /* TrailerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

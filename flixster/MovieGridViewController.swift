@@ -37,7 +37,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource,UICo
         collectionView.dataSource = self
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         layout.minimumLineSpacing = 15
-        layout.minimumInteritemSpacing = 5
+        layout.minimumInteritemSpacing = 10
         let width = (view.frame.size.width - layout.minimumInteritemSpacing * 2) / 3
         layout.itemSize = CGSize(width: width, height : width * 3 / 2)
         
@@ -50,11 +50,9 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource,UICo
               print(error.localizedDescription)
            } else if let data = data {
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-            print(dataDictionary)
               // TODO: Get the array of movies
             self.movies = dataDictionary["results"] as! [[String: Any]]
             self.collectionView.reloadData()
-            print(self.movies)
             
               // TODO: Store the movies in a property to use elsewhere
               // TODO: Reload your table view data
